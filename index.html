@@ -8,6 +8,10 @@
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.21/build/spline-viewer.js"></script>
 </head>
 <body>
+    <!-- Spline Viewer Background -->
+    <spline-viewer url="https://prod.spline.design/ivEiuzWlXyJcHHDF/scene.splinecode"></spline-viewer>
+    
+    <!-- Weather Container -->
     <div id="weather-container">
         <h2>Check the weather now!</h2>
         <input type="text" id="city" placeholder="Enter city">
@@ -20,11 +24,8 @@
         <div id="weather-info"></div>
 
         <div id="hourly-forecast"></div>
-
-        <div>
-            <spline-viewer url="https://prod.spline.design/ivEiuzWlXyJcHHDF/scene.splinecode"></spline-viewer>
-        </div>
     </div>
+
     <script src="./script.js"></script> 
 </body>
 </html>
